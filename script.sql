@@ -52,4 +52,4 @@ SELECT * FROM funcionarios; #Selecione todos os funcionários.
 SELECT NOME, descricao FROM projetos; #Selecione os projetos com suas descrições
 SELECT * FROM funcionarios WHERE salario > 5000; #Selecione os funcionários com salário maior que 5000.
 SELECT COUNT(*) FROM funcionarios; #Conte o número total de funcionários.
-    
+SELECT * FROM projetos WHERE data_inicio > '2023-01-01'; # Selecione os projetos que começam depois de '2023-01-01'. 
