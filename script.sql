@@ -49,6 +49,6 @@ INSERT INTO atribuicoes (id_funcionario, id_projeto, papel) VALUES (
 (3, 2, 'Gerente de Projeto');
     
 SELECT * FROM funcionarios; #Selecione todos os funcionários.
-
+SELECT NOME, descricao FROM projetos; #Selecione os projetos com suas descrições
 
     
