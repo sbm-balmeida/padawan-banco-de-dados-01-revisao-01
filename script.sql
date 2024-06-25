@@ -51,5 +51,5 @@ INSERT INTO atribuicoes (id_funcionario, id_projeto, papel) VALUES (
 SELECT * FROM funcionarios; #Selecione todos os funcionários.
 SELECT NOME, descricao FROM projetos; #Selecione os projetos com suas descrições
 SELECT * FROM funcionarios WHERE salario > 5000; #Selecione os funcionários com salário maior que 5000.
-
+SELECT COUNT(*) FROM funcionarios; #Conte o número total de funcionários.
     
