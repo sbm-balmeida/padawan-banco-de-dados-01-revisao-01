@@ -48,5 +48,7 @@ INSERT INTO atribuicoes (id_funcionario, id_projeto, papel) VALUES (
 (2, 1, 'Analista de Dados'),
 (3, 2, 'Gerente de Projeto');
     
-    
+SELECT * FROM funcionarios; #Selecione todos os funcionários.
+
+
     
