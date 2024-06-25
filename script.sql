@@ -55,7 +55,8 @@ SELECT COUNT(*) FROM funcionarios; #Conte o número total de funcionários.
 SELECT * FROM projetos WHERE data_inicio > '2023-01-01'; # Selecione os projetos que começam depois de '2023-01-01'. 
 SELECT * FROM funcionarios ORDER BY idade ASC; # Ordene os funcionários por idade em ordem crescente. 
 SELECT * FROM funcionarios WHERE nome LIKE 'A%'; # Selecione os funcionários cujo nome começa com 'A'.
-SELECT COUNT(*) FROM projetos; # Conte quantos projetos estão na tabela. 
+SELECT COUNT(*) FROM projetos; # Conte quantos projetos estão na tabela.
+SELECT COUNT(*) FROM funcionarios WHERE idade > 35; # Conte quantos funcionários têm mais de 35 anos. 
 
 /*ASC – Ordem crescente
 DESC – Ordem descendente*
